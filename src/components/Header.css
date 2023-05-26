@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #2c3e50;
+    justify-content: center;  /* Dark blue */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff; /* White */
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #34495e; /* Darker blue */
+  }
+
+  .cart-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
